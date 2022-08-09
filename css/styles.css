@@ -1,23 +1,71 @@
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0 30px;
+}
+
+div {
+    background:#999999 100%;
+    width: 33.33%;  
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 125px;
+}
+
+.Food {
+    width: 33.33%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;   
+}
+
+#p1 {
+    background: #d59898;
+}
+
+#p2 {
+    background: #c14543;
+    color: #ffffff;
+    
+}
+
+#p3 {
+    background: #e5d198;
+}
 /* Desktop Version */
 
 @media (min-width: 992px) {
-    div {
-        background: gray;
-    }
+    
 }
 
 /* Tablet Version */
 
 @media (max-width: 991px) and (min-width: 768px) {
+
     div {
-        background: gray;
+        background:gray 100%;
+        width: 50%;  
+        display: inline-block;
+        box-sizing: border-box;
     }
+    
 }
 
 /* Mobile Version */
 
 @media (max-width: 767px) {
-    div {
-        background: gray;
-    }
+    
 }
