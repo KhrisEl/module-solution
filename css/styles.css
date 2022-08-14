@@ -22,7 +22,7 @@ h1 {
 }
 
 .Food {
-    width: 20%;
+    width: 30%;
     height: 25%;
     border: 2px black;
     border-style: none none solid solid;
@@ -74,11 +74,11 @@ div {
 /* Desktop Version */
 
 @media (min-width: 992px) {
-    .col-lg-4 {
+    .col-lg-3 {
         background:#999999 100%;
         border: 2px solid black;
         padding: 0px;
-        width: 30%; 
+        width: 25%; 
         display: inline-block;
         margin: auto 10px auto 10px;
     }
@@ -87,20 +87,20 @@ div {
 /* Tablet Version */
 
 @media (max-width: 991px) and (min-width: 768px) {
-    .col-md-6 {
+    .col-md-5 {
         background:#999999 100%;
         border: 2px solid black;
         padding: 0px;
-        width: 46%; 
+        width: 41.66%; 
         display: inline-block;
         margin: auto 10px 10px 10px;
     }
 
-    .col-md-12 {
+    .col-md-9 {
             background:#999999 100%;
             border: 2px solid black;
             padding: 0px;
-            width: 95%; 
+            width: 75%; 
             display: inline-block;
             margin: auto 10px auto 10px;
     }
@@ -110,12 +110,16 @@ div {
 /* Mobile Version */
 
 @media (max-width: 767px) {
-    .col-sm-12 {
+    .col-sm-11 {
             background:#999999 100%;
             border: 2px solid black;
             padding: 0px;
-            width: 95%; 
+            width: 91.66%; 
             display: inline-block;
             margin: 5px 10px 5px 10px;
+    }
+
+    .Food {
+        width: 30%;
     }
 }
