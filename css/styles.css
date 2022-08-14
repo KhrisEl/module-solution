@@ -8,17 +8,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
     text-align: center;
 }
 
 h1 {
     text-align: center;
     margin: 30px 0 30px;
-}
-
-#Container-2 {
-    margin: 10px;
 }
 
 .Food {
@@ -57,7 +52,7 @@ h1 {
     margin: 10px;
 }
 
-div {
+div { 
     position: fixed;
     z-index: 100; 
     bottom: 0; 
@@ -71,6 +66,12 @@ div {
     text-align: right;
     margin-right: 2px;
 }
+
+.wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
 /* Desktop Version */
 
 @media (min-width: 992px) {
@@ -79,8 +80,10 @@ div {
         border: 2px solid black;
         padding: 0px;
         width: 25%; 
-        display: inline-block;
+        float: left;
         margin: auto 10px auto 10px;
+        position: relative;
+        left: 10%;
     }
 }
 
