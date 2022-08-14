@@ -86,7 +86,6 @@ h1 {
         background:#999999 100%;
         border: 2px solid black;
         width: 90%;
-        height: 200px;
         margin: auto;
         overflow: hidden;
     }
@@ -103,14 +102,13 @@ h1 {
     .col-md-12 {
             width: 100%; 
             float: left;
-            margin: 10px auto auto auto;
+            margin: 25px auto auto auto;
     }
 
     .container {
         background:#999999 100%;
         border: 2px solid black;
         width: 90%;
-        height: 180px;
         margin: auto;
     }
 }   
@@ -121,15 +119,18 @@ h1 {
 @media (max-width: 767px) {
     .col-sm-12 {
             width: 100%; 
-            margin: 5px;
+            margin: 20px auto 10px auto;
     }
 
     .container {
         background:#999999 100%;
         border: 2px solid black;
         width: 90%;
-        height: 160px;
         margin: auto;
+    }
+
+    .Food {
+        height: 20%;
     }
 
     .text {
