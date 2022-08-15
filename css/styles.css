@@ -68,26 +68,23 @@ h1 {
     margin-right: 2px;
 }
 
-.wrap {
-    float: left;
-    position: relative;
-    left: 50%;
-}
 /* Desktop Version */
 
 @media (min-width: 992px) {
     .col-lg-4 {
         width: 33.33%; 
         float: left;
-        padding: 40px 10px 10px;
+        border: 2px solid black;
+        background-color: #999999;
+        height: 180px;
     }
 
     .container {
-        background:#999999 100%;
-        border: 2px solid black;
-        width: 90%;
-        margin: auto;
-        overflow: hidden;
+        margin: auto 10px auto 10px;
+    }
+
+    .row {
+        width: 95%;
     }
 }
 
@@ -106,10 +103,6 @@ h1 {
     }
 
     .container {
-        background:#999999 100%;
-        border: 2px solid black;
-        width: 90%;
-        margin: auto;
     }
 }   
 
@@ -119,21 +112,8 @@ h1 {
 @media (max-width: 767px) {
     .col-sm-12 {
             width: 100%; 
-            margin: 20px auto 10px auto;
     }
 
     .container {
-        background:#999999 100%;
-        border: 2px solid black;
-        width: 90%;
-        margin: auto;
-    }
-
-    .Food {
-        height: 20%;
-    }
-
-    .text {
-        padding: 0;
     }
 }
